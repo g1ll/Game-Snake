@@ -621,7 +621,7 @@ function canvasApp() {
                     url: 'php/consultaRanking.php',
                     dataType: 'json', //Objeto JSON (JavaScript Object Notation)
                     success: function (data, textStatus) {
-                        var py = text_size + 230;//Posição Y inicial
+                        var py = text_size + 280;//Posição Y inicial
                         imprimirMsg("POSIÇÃO |\t ID |\t NAME |\t SCORE ", py);//Título do Ranking
                         //FOR para iterar o array data com os objetos do tipo JSON
                         for (var i = 0; i < data.length; i++) {
